@@ -1,1 +1,1 @@
-docker run --name kometa_run --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:latest --delete-collections --run
+docker run --name kometa_run --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:latest --delete-collections --collections-only --run
