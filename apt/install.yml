@@ -1,1 +1,1 @@
-sudo aot-fast install {packagename}
+sudo apt-fast install {packagename}
