@@ -1,0 +1,1 @@
+docker run --name imagemaid_run --rm -it -v /home/jeremy/Server/Configs/kometateam/pleximagemaid:/config:rw -v "/home/jeremy/Server/Configs/mediaserver/plex/config/Library/Application Support/Plex Media Server:/plex":rw kometateam/imagemaid
