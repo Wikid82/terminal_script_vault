@@ -1,1 +1,1 @@
-docker run -d --name kometa_run --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:latest --run-libraries "TV Shows" --collections-only --run
+docker run -d --name kometa_run --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:nightly --run-libraries "TV Shows" --collections-only --run
