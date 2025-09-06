@@ -1,0 +1,1 @@
+nmcli connection delete uuid <UUID_of_connection>
