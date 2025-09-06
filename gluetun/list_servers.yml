@@ -1,0 +1,1 @@
+docker run --rm -v /home/jeremy/Server/Configs/containers/gluetun:/gluetun qmcgaw/gluetun format-servers -protonvpn
