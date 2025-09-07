@@ -1,1 +1,0 @@
-nmcli connection delete {connection_name}
