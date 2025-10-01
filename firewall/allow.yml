@@ -1,0 +1,6 @@
+sudo ufw allow <port_number>
+
+or
+
+
+sudo ufw allow <service_name>
