@@ -1,1 +1,1 @@
-docker run -d --name kometa_run --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:nightly --operations-only --low-priority --run
+docker run -d --name kometa_run --network container:gluetun --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:nightly --operations-only --low-priority --run
