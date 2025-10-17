@@ -1,0 +1,71 @@
+   {
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Docker Compose Pull",
+            "type": "shell",
+            "command": "docker compose pull",
+            "options": {
+                "cwd": "/home/jeremy/Server/Configs/containers"
+            },
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Pulls the latest images for all services."
+        },
+        {
+            "label": "Docker Compose Up",
+            "type": "shell",
+            "command": "docker compose up -d",
+            "options": {
+                "cwd": "/home/jeremy/Server/Configs/containers"
+            },
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Starts all services in detached mode."
+        },
+        {
+            "label": "Docker Compose Down",
+            "type": "shell",
+            "command": "docker compose down",
+            "options": {
+                "cwd": "/home/jeremy/Server/Configs/containers"
+            },
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Stops and removes all services."
+        },
+        {
+            "label": "Docker Compose Restart",
+            "type": "shell",
+            "command": "docker compose restart",
+            "options": {
+                "cwd": "/home/jeremy/Server/Configs/containers"
+            },
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Restarts all services."
+        },
+        {
+            "label": "Docker Compose Start",
+            "type": "shell",
+            "command": "docker compose start",
+            "options": {
+                "cwd": "/home/jeremy/Server/Configs/containers"
+            },
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Starts existing containers for all services."
+        },
+        {
+            "label": "Docker Compose Stop",
+            "type": "shell",
+            "command": "docker compose stop",
+            "options": {
+                "cwd": "/home/jeremy/Server/Configs/containers"
+            },
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Stops running containers without removing them."
+        }
+    ]
+}
