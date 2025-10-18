@@ -1,1 +1,1 @@
-docker run -d --name kometa_run --network container:gluetun --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:nightly --run-libraries "Movies" --overlays-only --low-priority --run
+docker run -d --name kometa_run --network containers_plex --rm -it -v "/home/jeremy/Server/Configs/kometateam/kometa/config/:/config:rw" -e TZ=America/New_York kometateam/kometa:nightly --run-libraries "Movies" --overlays-only --low-priority --run
