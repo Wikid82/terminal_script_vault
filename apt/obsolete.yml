@@ -1,0 +1,1 @@
+apt list --installed | awk -F/ '{print $1}' | while read pkg; do apt-cache policy "$pkg" 2>/dev/null | grep -q "500 http" || echo "$pkg"; done | grep -v "^Listing"
